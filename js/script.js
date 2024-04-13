@@ -19,3 +19,7 @@ $(document).ready(function(){
     });
 });
 
+var res = document.getElementById("liveToastBtn").onclick= function(){
+    console.log("Button Clicked");
+    alert("Api Response Got error");
+}
