@@ -1,0 +1,98 @@
+body{
+    background-color: #f4f5f7;
+    color: #090101;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    font-family: 'Protest Strike', sans-serif;
+}
+.logo-txt{
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+}
+.accord-head{
+    object-fit:fill;
+}
+.info-txt{
+    color:#090101
+}
+#features{
+    padding: 7% 10%;
+}
+.feature-box{
+    text-align: center;
+}
+/* icon-add */
+.icon-add{
+    font-size: 5rem;
+    padding-bottom: 2%;
+    color:rgb(118, 210, 247)
+}
+.icon-add:hover{
+    transition: ease-in-out 0.3s;
+    transform:scale(1.2);
+}
+.head-title{
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.btn-me{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+.btn-me:hover{
+    background-color: #f4f5f7;
+    color: #090101;
+    transition: ease-in-out 0.3s;
+}
+@media (max-width: 768px) {
+    .project-image{
+        width: 100%;
+    }
+    .icon-add{
+        font-size: 3rem;
+    }
+    .head-title{
+        padding-top: 10%;
+    }
+}
+.card-me{
+    background-color: #f4f5f7;
+    padding:1%;
+}
+.social{
+    text-align: center;
+}
+.social-icon-me{
+    margin: 2%;
+    font-size: 1.5rem;
+}
+.social-icon-me:hover{
+    color: #f4f5f7;
+    transition: ease-in-out 0.1s;
+    transform:scale(1.2);
+}
+.contact-us{
+    text-align: center;
+    padding:2%
+}
+.contact-heading{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.footer-box{
+    background-color:rgba(26, 27, 28, 0.932);
+    padding: 1.2% 0%;
+    margin:0;
+}
+
+.copyright{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+    color:#f4f5f7
+}
